@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css?family=Nunito:400,400i,700,700i&display=swap');
+
+body {
+  background-color: #FCF9F7;
+  font-family:'Nunito', sans-serif;
+  font-size: 18px;
+  line-height: 1.5;
+  }
+
+  h1 {
+    color: #074F57;
+    font-size: 30px ;
+  }
+
+  #h2_same_color_as_h1 {
+    color: #074F57;
+  }
+
+  h2 {
+    color: #077187;
+    font-size: 25px;
+  }
+
+  p {
+    color: #74A57F;
+    font-size: 20px
+  }
+
+  a {
+    color: #E4C5AF ;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: #A69080;
+  }
+
+  .container {
+    margin: 5% auto;
+    width: 600px;
+  }
+
+  @media (max-width: 960px) {
+    .container {
+      width: 700px;
+    }
+  }
+  @media (max-width: 720px) {
+    .container {
+      width: 500px;
+    }
+  }
+  @media (max-width: 540px) {
+    .container {
+      width: 300px;
+    }
+  }
+
+  .card {
+    border: 3px solid #FAF4F0;
+    border-radius: 0.5%;
+    margin: 25px;
+    padding: 25px;
+    text-align: center;
+    box-shadow: 2px 2px 3px #927E70;
+    background-color: #FAF4F0;
+  }
+
+  #profile_img_circle {
+    border-radius: 50%;
+    width: 100px;
+  }
+
+  .list-inline > li {
+    display: inline-block;
+    padding: 0px 20px;
+    font-size: 40px
+  }
+
+  .list-inline {
+    list-style: none;
+    padding-left: 0px;
+  }
+
+

@@ -9,7 +9,7 @@ body {
 
   h1 {
     color: #074F57;
-    font-size: 30px ;
+    font-size: 30px;
   }
 
   #h2-same-color-as-h1 {
@@ -26,7 +26,7 @@ body {
     background-color: #E4C5AF;
     color: white;
     padding: 10px;
-    border-radius: 5px
+    border-radius: 5px;
   }
 
   .btn-background:hover {
@@ -41,7 +41,7 @@ body {
 
   p {
     color: #74A57F;
-    font-size: 20px
+    font-size: 20px;
   }
 
   a {
@@ -56,7 +56,7 @@ body {
   .list-inline > li {
     display: inline-block;
     padding: 0px 15px;
-    font-size: 40px
+    font-size: 40px;
   }
 
   .list-inline a {

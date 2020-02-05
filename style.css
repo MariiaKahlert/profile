@@ -12,8 +12,26 @@ body {
     font-size: 30px ;
   }
 
-  #h2_same_color_as_h1 {
+  #h2-same-color-as-h1 {
     color: #074F57;
+  }
+
+
+  #profile-img-circle {
+    border-radius: 50%;
+    width: 120px;
+  }
+
+  .btn-background {
+    background-color: #E4C5AF;
+    color: white;
+    padding: 10px;
+    border-radius: 5px
+  }
+
+  .btn-background:hover {
+    background-color: #A69080;
+    color: white;
   }
 
   h2 {
@@ -27,11 +45,25 @@ body {
   }
 
   a {
-    color: #E4C5AF ;
     text-decoration: none;
   }
 
-  a:hover {
+  .list-inline {
+    list-style: none;
+    padding-left: 0px;
+  }
+
+  .list-inline > li {
+    display: inline-block;
+    padding: 0px 15px;
+    font-size: 40px
+  }
+
+  .list-inline a {
+    color: #E4C5AF;
+  }
+
+  .list-inline a:hover {
     color: #A69080;
   }
 
@@ -58,28 +90,10 @@ body {
 
   .card {
     border: 3px solid #FAF4F0;
-    border-radius: 0.5%;
+    border-radius: 5px;
     margin: 25px;
     padding: 25px;
     text-align: center;
     box-shadow: 2px 2px 3px #927E70;
     background-color: #FAF4F0;
   }
-
-  #profile_img_circle {
-    border-radius: 50%;
-    width: 100px;
-  }
-
-  .list-inline > li {
-    display: inline-block;
-    padding: 0px 20px;
-    font-size: 40px
-  }
-
-  .list-inline {
-    list-style: none;
-    padding-left: 0px;
-  }
-
-

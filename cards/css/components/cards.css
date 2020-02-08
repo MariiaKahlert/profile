@@ -45,6 +45,7 @@
 
 .card-trip {
   box-shadow: 5px 5px 10px #97a1a6;
+  border-radius: 4px;
 }
 
 .card-trip > img {
@@ -52,6 +53,7 @@
   height: 250px;
   object-fit: cover;
   object-position: 0 -137px;
+  border-radius: 4px;
 }
 
 .card-trip-infos {
